@@ -12,7 +12,8 @@ interface ContentStructure{
     title: string,
     link: string,
     tags: string[],
-    text: string
+    text: string,
+    images: string[]
 }
 
 class ContentBox extends Component<Props, State> {
@@ -30,7 +31,7 @@ class ContentBox extends Component<Props, State> {
         let out: JSX.Element[] = []
         let counter = 0;
         this.props.data.forEach(element => {
-            out.push(<ItemContainer data={element} key={counter} />);
+            out.push(<ItemContainer data={element} key={counter} parentKey={counter.toString()} />);
             counter += 1;         
         });
         return out;
@@ -38,7 +39,7 @@ class ContentBox extends Component<Props, State> {
 
     render():JSX.Element {
         return (
-            <div className="ContentBox col m-0 p-1">
+            <div className="ItemBox col m-0 p-1">
                 <div className="borderLeft"></div>
                 <div className="borderRight"></div>
                 <div className="borderTop"></div>
