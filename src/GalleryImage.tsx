@@ -39,7 +39,7 @@ class GalleryImage extends Component<Props, State> {
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <img src={"showcase/items/" + this.props.src} alt=""></img>
+                                <img src={"%PUBLIC_URL%/items/" + this.props.src} alt=""></img>
                             </div>
                         </div>
                     :
