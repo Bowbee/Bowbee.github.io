@@ -1,15 +1,13 @@
 Body{
   background-color: #21241e !important;
+
 }
 
 .App {
+  background-color: #21241e !important;
 }
 .jumbotron{
   background-color: #21241e !important;
-}
-
-.container{
-  background-color: red;
 }
 
 #ppic{
@@ -18,4 +16,110 @@ Body{
 }
 #nameText{
   font-weight: bold;
+  font-size: 1.3em;
+}
+#bioText{
+  font-size: 1em;
+}
+.userLink{
+  text-align:center;
+  color: white;
+}
+.userIcon{
+  max-width: 2em;
+}
+#ghub{
+  filter: invert(1);
+}
+#GHLink{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.ItemText{
+  font-family: 'Roboto Mono', monospace;
+}
+
+.ItemText h1{
+  font-size: 1.75em;
+}
+.ItemText h2{
+  font-size: 1.5em;
+}
+.ItemText h3{
+  font-size: 1.25em;
+}
+.ItemText em{
+  font-size: 1em;
+}
+.ItemText strong{
+  font-size: 1em;
+}
+
+
+.UserInfo{
+  background-color: #252922;
+  color: white;
+  text-align: center;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.ItemContainer{
+  background-color: #252922;
+  color: white;
+  text-align: center;
+  font-family: 'Major Mono Display', monospace;
+}
+
+.borderBottom{
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-image: -webkit-linear-gradient(to left,#000, transparent);
+  background-image: -moz-linear-gradient(to left,#000, transparent);
+  background-image: -o-linear-gradient(to left,#000, transparent);
+  background-image: linear-gradient(to left, #000, transparent);
+}
+.borderTop{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 3px;
+  background-image: -webkit-linear-gradient(to right,#000, transparent);
+  background-image: -moz-linear-gradient(to right,#000, transparent);
+  background-image: -o-linear-gradient(to right,#000, transparent);
+  background-image: linear-gradient(to right, #000, transparent);
+}
+.borderLeft{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 3px;
+  height: 100% !important;
+  background-image: -webkit-linear-gradient(to bottom,#000, transparent);
+  background-image: -moz-linear-gradient(to bottom,#000, transparent);
+  background-image: -o-linear-gradient(to bottom,#000, transparent);
+  background-image: linear-gradient(to bottom, #000, transparent);
+}
+
+.borderRight{
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 3px;
+  height: 100% !important;
+  background-image: -webkit-linear-gradient(to top,#000, transparent);
+  background-image: -moz-linear-gradient(to top,#000, transparent);
+  background-image: -o-linear-gradient(to top,#000, transparent);
+  background-image: linear-gradient(to top, #000, transparent);
+}
+
+.striped{
+  background: repeating-linear-gradient(
+  -45deg,
+  rgba(0,0,0,0),
+  rgba(0,0,0,0.08) 10px
+);
 }

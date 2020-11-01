@@ -1,6 +1,8 @@
 import React, {Component} from 'react';
 import { hot } from 'react-hot-loader';
 import UserInfo from './UserInfo';
+import HeaderBox from './HeaderBox';
+import ContentBox from './ContentBox';
 import Data from './Data';
 
 
@@ -26,11 +28,12 @@ class MainContainer extends Component<Props, State> {
     render():JSX.Element {
         return (
             <div className="MainContent row m-0 p-0">
-                <div className="SideBar col-md-3 m-0 p-0">
-                    <UserInfo userInfo={Data.userInfo} />
+                <div className="SideBar col-lg-3 m-0 px-3 mt-3">
+                    <UserInfo data={Data.userInfo} />
                 </div>
-                <div className="ContentBox col-md-9 m-0 p-0">
-                    <p>My Content</p>
+                <div className="ContentBox col-lg-9 m-0 p-0 my-3">
+                    <HeaderBox />
+                    <ContentBox data={Data.content} />
                 </div>
             </div>
         )

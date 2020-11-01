@@ -17,10 +17,6 @@ class App extends Component {
         console.log("Mounted App");
     };
 
-    componentDidUpdate(prevState: State) {
-
-    }
-
     render() {
       return (
 
