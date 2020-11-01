@@ -25,7 +25,7 @@ class GalleryImage extends Component<Props, State> {
             <div className="GalleryImage col-3 p-0 mx-2 my-1">
                 <div className="row align-items-center p-0 m-0">
                     <div className="col p-0 m-0">
-                        <img src={"showcase/items/" + this.props.src} alt="" onClick={() => this.setState({clicked : true})}></img>
+                        <img src={"./items/" + this.props.src} alt="" onClick={() => this.setState({clicked : true})}></img>
                         <div className="borderLeft"></div>
                         <div className="borderRight"></div>
                         <div className="borderTop"></div>
@@ -39,7 +39,7 @@ class GalleryImage extends Component<Props, State> {
                                         <span aria-hidden="true">&times;</span>
                                     </button>
                                 </div>
-                                <img src={"%PUBLIC_URL%/items/" + this.props.src} alt=""></img>
+                                <img src={"./items/" + this.props.src} alt=""></img>
                             </div>
                         </div>
                     :
