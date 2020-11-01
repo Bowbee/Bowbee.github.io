@@ -26,10 +26,6 @@ class UserInfo extends Component<Props, State> {
         }
     }
 
-    componentDidMount = function():void {
-        console.log(Data);
-    }
-
     render():JSX.Element {
         return (
             <div className="UserInfo striped col m-0 p-1">

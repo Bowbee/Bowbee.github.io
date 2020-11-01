@@ -11,39 +11,27 @@ const data = {
 
     content:[
         {
-            title: "Test 1",
-            link: "https://test.com",
-            tags: ["a"],
-            text: `This is some text`,
-            images: [""]
-        },
-        {
-            title: "Test 2",
+            title: "Project Kikai",
             link: "",
-            tags: ["a"],
-            text: `This is some text`,
-            images: []
-        },
-        {
-            title: "Test 3",
-            link: "https://test.com",
-            tags: ["C++", "Java", "Python", "DevOps", "Google Cloud", "R"],
-            text: `# Header 1
-## Header 2
-          
-_italic_
-          
-**bold**
+            tags: ["Private Source", "JS/TS", "DevOps", "Google Cloud", "Docker", "Firebase", "Project Management"],
+            text: `
+This is a showcase project made in Unreal Engine 4 by a C++ developer, 3D artist, and myself. I fulfil the primary roles of project manager and DevOps developer. 
+I create and manage the backend APIs required for player authentication and persistent data.
 
-this is some standard text`,
-            images: ["test3_1.jpg","test3_1.jpg","test3_1.jpg"]
+I also create the user interface frameworks for the project, as well as general game design.`,
+            images: ["kk_1.png", "kk_2.gif", "kk_3.png"]
         },
         {
-            title: "Test 4",
-            link: "https://test.com",
-            tags: ["a", "b"],
-            text: `This is some text`,
-            images: []
+            title: "Project Kikai Launcher",
+            link: "",
+            tags: ["Private Source", "TypeScript", "Electron", "React", "Google Cloud", "CI/CD"],
+            text: `
+This launcher is used as the the method to download Project Kikai. This is primarily used for playtests or debug deployments within the team.
+
+Metadata required for downloads and server availability is fetched from a worker managed database whenever new artifacts successfully built are pushed to a public channel.
+
+The launcher is entirely managed and developed by myself using Electron & React, and is currently feature complete.`,
+            images: ["kl_1.png", "kl_3.png" ,"kl_2.png"]
         }
     ]
 };

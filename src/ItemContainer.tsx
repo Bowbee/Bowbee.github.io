@@ -86,7 +86,7 @@ class ItemContainer extends Component<Props, State> {
                         </div>
                         {this.props.data.images.length > 0 ? 
                             <div className="col p-0 m-0 ImageGallery">
-                                <div className="row justify-content-center p-0 m-3">
+                                <div className="row align-items-center justify-content-center p-0 m-3">
                                     {this.getImages()}
                                 </div>
                             </div>

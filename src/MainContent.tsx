@@ -21,13 +21,9 @@ class MainContainer extends Component<Props, State> {
         }
     }
 
-    componentDidMount = function():void {
-        console.log(Data);
-    }
-
     render():JSX.Element {
         return (
-            <div className="MainContent row m-0 p-0">
+            <div className="MainContent row m-0 p-0 largeMargin">
                 <div className="SideBar col-lg-3 m-0 px-3 mt-3">
                     <UserInfo data={Data.userInfo} />
                 </div>

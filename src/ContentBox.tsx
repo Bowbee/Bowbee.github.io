@@ -23,10 +23,6 @@ class ContentBox extends Component<Props, State> {
         }
     }
 
-    componentDidMount = function():void {
-        console.log(Data);
-    }
-
     getItemContainers() {
         let out: JSX.Element[] = []
         let counter = 0;
