@@ -1,6 +1,5 @@
 import React, {Component} from 'react';
 import { hot } from 'react-hot-loader';
-import Data from './Data';
 import ItemContainer from './ItemContainer';
 
 interface Props {
