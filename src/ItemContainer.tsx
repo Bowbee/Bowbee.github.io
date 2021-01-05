@@ -63,8 +63,13 @@ class ItemContainer extends Component<Props, State> {
                 <div className="borderBottom"></div>
                 {!this.state.clicked ? 
                     <div className="col m-0 p-0">
-                        <div className="row m-0 p-3" onClick={() => this.setState({clicked: !this.state.clicked})}>
-                            <p className="p-0 my-2">{this.props.data.title.toLowerCase()}</p>
+                        <div className="row m-0 py-3 pl-3" onClick={() => this.setState({clicked: !this.state.clicked})}>
+                            <div className="col m-0 p-0 text-left">
+                                <p className="p-0 my-2 title">{this.props.data.title.toLowerCase()}</p>
+                            </div>
+                            <div className="col-auto m-0 p-0 pr-4 pt-2 text-right">
+                                <i className="fas fa-chevron-down"></i>
+                            </div>
                         </div>
 
                     </div>

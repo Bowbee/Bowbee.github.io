@@ -1,16 +1,26 @@
 Body{
-  background-color: #21241e !important;
+  background-color: #2c2c28 !important;
 
 }
 
 .App {
-  background-color: #21241e !important;
+  background-color: #2c2c28 !important;
 }
 .jumbotron{
-  background-color: #21241e !important;
+  background-color: #2c2c28 !important;
 }
 
+.fas{
+  color: #acacac;
+}
 
+p{
+  color: #e7e7e7;
+}
+
+.title{
+  color: #FFFFFF;
+}
 
 @media (min-width: 0px) {
   .largeMargin{
