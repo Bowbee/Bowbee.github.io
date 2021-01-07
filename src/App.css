@@ -21,6 +21,9 @@ p{
 .title{
   color: #FFFFFF;
 }
+.title > a{
+  color: #0000EE;
+}
 
 @media (min-width: 0px) {
   .largeMargin{
